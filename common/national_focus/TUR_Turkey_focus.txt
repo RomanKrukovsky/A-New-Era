@@ -1,0 +1,483 @@
+focus_tree = {
+	id = Turkey_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	#Focus for Movement in the Middle East
+	focus = {
+		id = TUR_movement_in_the_middle_east
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 37
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expansion_of_the_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Movement into Africa
+	focus = {
+		id = TUR_movement_into_africa
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 41
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expansion_of_the_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expansion of the Empire
+	focus = {
+		id = TUR_expansion_of_the_empire
+		icon = GFX_goal_generic_position_armies
+		x = 39
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_external_problems }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Movement in Europe
+	focus = {
+		id = TUR_movement_in_europe
+		icon = GFX_focus_hol_united_netherlands
+		x = 34
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expansion_of_the_empire }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Naval Expansion
+	focus = {
+		id = TUR_naval_expansion
+		icon = GFX_goal_generic_build_navy
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_military_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bigger Ships
+	focus = {
+		id = TUR_bigger_ships
+		icon = GFX_goal_generic_occupy_start_war
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_a_new_ship }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on Anatolian Industries
+	focus = {
+		id = TUR_focus_on_anatolian_industries
+		icon = GFX_goal_generic_construction2
+		x = 25
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_industalisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Upgrading the Caravanserai
+	focus = {
+		id = TUR_upgrading_the_caravanserai
+		icon = GFX_goal_unknown
+		x = 27
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_focus_on_anatolian_industries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Inflexible Doctrine 2
+	focus = {
+		id = TUR_inflexible_doctrine_2
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_inflexible_doctrine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Flexible Doctrine 1
+	focus = {
+		id = TUR_flexible_doctrine_1
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_flexiable_doctrine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Flexiable Doctrine
+	focus = {
+		id = TUR_flexiable_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_ottoman_standardisation }
+		mutually_exclusive = { focus = TUR_inflexible_doctrine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Inflexible Doctrine
+	focus = {
+		id = TUR_inflexible_doctrine
+		icon = GFX_goal_demand_sudetenland
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_ottoman_standardisation }
+		mutually_exclusive = { focus = TUR_flexiable_doctrine }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new Weapon
+	focus = {
+		id = TUR_a_new_weapon
+		icon = GFX_goal_generic_build_tank
+		x = 0
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_ottoman_standardisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new Ship
+	focus = {
+		id = TUR_a_new_ship
+		icon = GFX_goal_generic_occupy_states_coastal
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_naval_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new Cannon
+	focus = {
+		id = TUR_a_new_cannon
+		icon = GFX_goal_generic_army_artillery2
+		x = 14
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expanding_the_bombardiers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ottoman Standardisation
+	focus = {
+		id = TUR_ottoman_standardisation
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_military_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Expansion
+	focus = {
+		id = TUR_military_expansion
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_external_problems }
+		ai_will_do = {
+			factor = 3
+		}
+		completion_reward = {
+			add_political_power= 100
+		}
+	}
+
+	#Focus for Mandatory Conscription
+	focus = {
+		id = TUR_mandatory_conscription
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_military_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 100,000
+		}
+	}
+
+	#Focus for Internal Politics
+	focus = {
+		id = TUR_internal_politics
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 8
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_era_of_transformation }
+		mutually_exclusive = { focus = TUR_external_problems }
+	}
+
+	#Focus for External Problems
+	focus = {
+		id = TUR_external_problems
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 16
+		y = 1
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_era_of_transformation }
+		mutually_exclusive = { focus = TUR_internal_politics }
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			create_field_marshal= { 
+name = 'Suleiman the magnificent' 
+gfx = 'GFX_CoolDudesFace' 
+traits = {Infantry Officer, War Hero
+}
+ 
+skill = 4 
+}
+		}
+	}
+
+	#Focus for Era of Transformation
+	focus = {
+		id = TUR_era_of_transformation
+		icon = GFX_goal_tripartite_pact
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 120
+		}
+	}
+
+	#Focus for Focus on Balkan Industries
+	focus = {
+		id = TUR_focus_on_balkan_industries
+		icon = GFX_goal_generic_construction2
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_industalisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expanding the Jannisaries
+	focus = {
+		id = TUR_expanding_the_jannisaries
+		icon = GFX_goal_generic_attack_allies
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_mandatory_conscription }
+		ai_will_do = {
+			factor = 4
+		}
+	}
+
+	#Focus for Quantity Focus
+	focus = {
+		id = TUR_quantity_focus
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expanding_the_jannisaries }
+		mutually_exclusive = { focus = TUR_quality_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Industalisation
+	focus = {
+		id = TUR_industalisation
+		icon = GFX_goal_generic_construct_civilian
+		x = 23
+		y = 2
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_external_problems }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Quality Focus
+	focus = {
+		id = TUR_quality_focus
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expanding_the_jannisaries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expanding the Bombardiers
+	focus = {
+		id = TUR_expanding_the_bombardiers
+		icon = GFX_goal_generic_army_artillery2
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_mandatory_conscription }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Emergence of the Guilds
+	focus = {
+		id = TUR_emergence_of_the_guilds
+		icon = GFX_goal_unknown
+		x = 24
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_intergrate_the_ahi_brotherhood 
+			focus = TUR_crush_the_ahi_brotherhood 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Combat National Inflation
+	focus = {
+		id = TUR_combat_national_inflation
+		icon = GFX_goal_unknown
+		x = 27
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on Egyptian Industries
+	focus = {
+		id = TUR_focus_on_egyptian_industries
+		icon = GFX_goal_generic_construction2
+		x = 31
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_industalisation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Intergrate the Ahi Brotherhood
+	focus = {
+		id = TUR_intergrate_the_ahi_brotherhood
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_focus_on_anatolian_industries }
+		mutually_exclusive = { focus = TUR_crush_the_ahi_brotherhood }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crush the Ahi Brotherhood
+	focus = {
+		id = TUR_crush_the_ahi_brotherhood
+		icon = GFX_goal_unknown
+		x = 25
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_focus_on_anatolian_industries }
+		mutually_exclusive = { focus = TUR_intergrate_the_ahi_brotherhood }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

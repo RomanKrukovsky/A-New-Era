@@ -1,0 +1,197 @@
+focus_tree = {
+	id = France_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	#Focus for Alliance with the Ottomans
+	focus = {
+		id = FRA_alliance_with_the_ottomans
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_seek_ottoman_assistance }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			Ottoman Empire is able to join the Valois Faction.
+		}
+	}
+
+	#Focus for Alliance with the Republic of Siena
+	focus = {
+		id = FRA_alliance_with_the_republic_of_siena
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_habsburgvalois_rivalry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			Republic of Siena can join Valois Faction
+		}
+	}
+
+	#Focus for Seek Ottoman assistance
+	focus = {
+		id = FRA_seek_ottoman_assistance
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_habsburgvalois_rivalry }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			Ottoman Empire gains base opinion of France +50%
+
+France gains +50% opinion of the Ottoman Empire
+		}
+	}
+
+	#Focus for Habsburg-Valois War
+	focus = {
+		id = FRA_habsburgvalois_war
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_french_claims_on_italy }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			gain wargoal on Milan
+		}
+	}
+
+	#Focus for Edict of Châteaubriant
+	focus = {
+		id = FRA_edict_of_chteaubriant
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_threat_of_huguenots }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			27 June 1551
+		}
+	}
+
+	#Focus for Legacy of Francis I
+	focus = {
+		id = FRA_legacy_of_francis_i
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			Gains +150 Political Power
+		}
+	}
+
+	#Focus for Threat of Huguenots
+	focus = {
+		id = FRA_threat_of_huguenots
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_legacy_of_francis_i }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			-5.00 base stability
+		}
+	}
+
+	#Focus for Habsburg-Valois Rivalry
+	focus = {
+		id = FRA_habsburgvalois_rivalry
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_legacy_of_francis_i }
+		search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			Austria opinion of France -50%
+
+Spain opinion of France -50%
+
+France opinion of Austria -50%
+
+France opinion of Spain -50%
+		}
+	}
+
+	#Focus for French Claims on Italy
+	focus = {
+		id = FRA_french_claims_on_italy
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_habsburgvalois_rivalry }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			France Gains Claim on provinces of
+		}
+	}
+
+	#Focus for Swiss Mercenaries
+	focus = {
+		id = FRA_swiss_mercenaries
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_french_claims_on_italy }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			France gains 10 Swiss Mercenary divisions
+		}
+	}
+
+#End of focuses 
+ }
