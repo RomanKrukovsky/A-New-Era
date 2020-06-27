@@ -3,4 +3,4 @@ tags={
 	"Historical"
 }
 name="A New Era"
-supported_version="1.9.3"
+supported_version="1.9.*"
