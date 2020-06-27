@@ -1,0 +1,14 @@
+state={
+	id=810
+	name="STATE_810"
+	history = {
+		owner = SVY
+		add_core_of = SVY
+		}
+	provinces={
+		611 3782 11570 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

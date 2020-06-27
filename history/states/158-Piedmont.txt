@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = SVY
 		victory_points = {
 			6788 10 
 		}
@@ -29,7 +29,7 @@ state={
 			}
 
 		}
-		add_core_of = ITA
+		add_core_of = SVY
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 10
@@ -43,7 +43,7 @@ state={
 	}
 
 	provinces={
-		611 770 3782 6780 9738 11570 11721 
+		770 6780 9738 11721 11723 11730 
 	}
 	manpower=4765476
 	buildings_max_level_factor=1.000

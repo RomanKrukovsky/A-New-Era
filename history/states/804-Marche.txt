@@ -1,0 +1,17 @@
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		925 967 3885 6926 9794 9924 11790 11861 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
