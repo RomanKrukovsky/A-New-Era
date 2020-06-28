@@ -4,10 +4,6 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
-ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
-}
 SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
@@ -15,10 +11,6 @@ SOV = {
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
-}
-FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -709,6 +701,15 @@ SCO = {
 	color_ui = rgb { 74 43 145 }
 }
 
+ENG = {
+	color = rgb { 206 0 3 }
+	color_ui = rgb { 206 0 3 }
+}
+FRA = {
+	color = rgb { 67 83 173 }
+	color_ui = rgb { 67 83 173 }
+}
+
 
 
 #######
@@ -747,4 +748,34 @@ MOD = {
 LUC = {
 	color = rgb { 247 42 162 }
 	color_ui = rgb { 247 42 162 }
+}
+
+TUS = {
+	color = rgb { 206 148 101 }
+	color_ui = rgb { 206 148 101 }
+}
+
+SNA = {
+	color = rgb { 85 26 114 }
+	color_ui = rgb { 85 26 114 }
+}
+
+FER = {
+	color = rgb { 18 91 117 }
+	color_ui = rgb { 18 91 117 }
+}
+
+PAP = {
+	color = rgb { 219 218 171 }
+	color_ui = rgb { 219 218 171 }
+}
+
+NAP = {
+	color = rgb { 0 50 145 }
+	color_ui = rgb { 0 50 145 }
+}
+
+URB = {
+	color = rgb { 162 194 211 }
+	color_ui = rgb { 162 194 211 }
 }
