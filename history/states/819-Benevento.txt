@@ -1,0 +1,14 @@
+state={
+	id=819
+	name="STATE_819"
+	history={
+		owner = PAP
+		add_core_of = PAP
+		}
+	provinces={
+		11803 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
