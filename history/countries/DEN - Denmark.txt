@@ -41,5 +41,13 @@ set_technology = {
 		traits = { }
 	}
 
+	create_country_leader = {
+		name = "Christian III"
+		picture = "portrait_christian_iii.dds"
+		ideology = despotism
+		expire = "1559.1.1"
+		traits = { }
+	}
+
 }
 
