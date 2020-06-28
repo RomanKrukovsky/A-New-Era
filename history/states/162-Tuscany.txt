@@ -4,7 +4,7 @@ state={
 	name="STATE_162"
 
 	history={
-		owner = ITA
+		owner = TUS
 		victory_points = {
 			9907 3 
 		}
@@ -27,7 +27,7 @@ state={
 			}
 
 		}
-		add_core_of = ITA
+		add_core_of = TUS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
