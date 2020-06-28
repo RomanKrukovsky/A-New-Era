@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = NAP
 		victory_points = {
 			819 20 
 		}
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = ITA
+		add_core_of = NAP
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
@@ -36,7 +36,7 @@ state={
 	}
 
 	provinces={
-		819 851 955 3958 3968 6972 9826 9856 11803 
+		819 851 955 3958 3968 6972 9826 9856 
 	}
 	manpower=5333611
 	buildings_max_level_factor=1.000
