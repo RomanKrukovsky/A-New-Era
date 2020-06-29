@@ -10,5 +10,6 @@ tags={
 
 }
 picture="thumbnail.png"
+replace_path="common/bookmarks"
 supported_version="1.9.*"
 path="mod/A-New-Era"
