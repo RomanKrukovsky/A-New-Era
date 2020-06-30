@@ -2,20 +2,21 @@ bookmarks = {
 	bookmark = {
 		name = "SCENARIO_1550_NAME"
 		desc = "SCENARIO_1550_DESC"
-		date = 2013.11.1.1
+		date = 1550.1.1.12
 		picture = "GFX_select_date_1550"
 		default_country = "FRA"
 		default = yes
 
 		
 		FRA = {
-			history = USA_SCENARIO_1550_DESC
+			history = FRA_SCENARIO_1550_DESC
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+
 		RUS = {
 			history = RUS_SCENARIO_1550_DESC
 			ideology = neutrality
@@ -25,209 +26,31 @@ bookmarks = {
 			}
 		}		
 
-		FRA = {
-			minor = yes
-			history = FRA_SCENARIO_1550_DESC
-			ideology = reformism
-			ideas={
-				eu_member
-                nuclear_country
-                unsc_member				
-			}
-			focuses = {
-				
-			}
-		}
-		GER = {
-			history = GER_SCENARIO_1550_DESC
-			ideology = liberalism
-			ideas={
-				eu_member
+		ENG = {
+			history = RUS_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
 			}			
 			focuses = {
-				GER_new_political_way
-				GER_reich_revival
-				GER_eurointegration
 			}
-		}
-		ENG = {
-			minor = yes
-			history = ENG_SCENARIO_1550_DESC
-			ideology = democratic
-			ideas = {
-				unsc_member
-				nuclear_country
-				eu_member
-				queen_elizabet
-			}
-			focuses = {
-				ENG_com3
-			}
-		}
-        CHI = {
-			history = CHI_SCENARIO_1550_DESC
-			ideology = communism
-			ideas = {
-				unsc_member
-				nuclear_country
-				#obsolete_army
-				overpopulation
-			}
-			focuses = {
-				CHI_red_dragon
-				CHI_taiwan
-				CHI_friend_RUS
-			}
-		}
-		JAP = {
-			history = JAP_SCENARIO_1550_DESC
-			ideology = democratic
-			ideas = {
-				JAP_article_9
-				JAP_obschina
-				emperor_akixito	
-			}
-			focuses = {
-				JP_start4
-				JP_start5
-				JP_start6
-			}
-		}
-		ITA = {
-			minor = yes
-			history = ITA_SCENARIO_1550_DESC
-			ideology = democratic
-			ideas = {
-				eu_member
-                
-                				
-			}
-			focuses = {
-				
-			}
-		}
-		
-		
-		IND = {
-			minor = yes
-			history = IND_SCENARIO_1550_DESC
-			ideology = reformism
-		}
-		PAK = {
-			minor = yes
-			history = PAK_SCENARIO_1550_DESC
-			ideology = democratic
-		}
-		IRN = {
-			history = IRN_SCENARIO_1550_DESC
-			ideology = democratic
-			ideas = {
-				oil_spike
-				opec_member
-				gaz_trader
-			}
-			focuses = {
-				IRN_persidian_empire
-				IRN_islam_republick
-				IRN_state_liberalov
-			}
-		}
-		SAU = {
-		    minor = yes
-			history = SAU_SCENARIO_1550_DESC
-			ideology = democratic
-		}
-		TUR = {
-		    minor = yes
-			history = TUR_SCENARIO_1550_DESC
-			ideology = neutrality
-		}
-        GRE = {
-		    minor = yes
-			history = GRE_SCENARIO_1550_DESC
-			ideology = reformism
-		}		
-		BRA = {
-			minor = yes
-			history = BRA_SCENARIO_1550_DESC
-			ideology = reformism
-		}
-		
-		UKR = {
-			history = UKR_SCENARIO_1550_DESC
-			ideology = neutrality
-			ideas = {
-				UKR_gas_agreements
-				UKR_the_split_people_east_and_west
-				guam_member
-			}
-			focuses = {
-				UKR_westering
-				UKR_russian_sanctions
-				UKR_antiterror_operation
-			}
-		}
-		
-		POL = {
-			minor = yes
-			history = POL_SCENARIO_1550_DESC
-			ideology = liberalism
-		}
-		
-		NKO = {
-			minor = yes
-			history = PRK_SCENARIO_1550_DESC
-			ideology = communism
-		}
-		
-		KOR = {
-			minor = yes
-			history = KOR_SCENARIO_1550_DESC
-			ideology = democratic
-		}
-		
-		ISS = {
-			minor = yes
-			history = IGL_SCENARIO_1550_DESC
-			ideology = rad_islamists
-			ideas = {
-				djixad
-			}
-			focuses = {
-				IGL_path_to_south
-				IGL_path_to_mekka
-				IGL_volya_allaxa
-			}
-		}
-		AFG = {
-			minor = yes
-			history = AFG_SCENARIO_1550_DESC
-			ideology = democratic
-			ideas = {
-				afg_underground
-				obsolete_army
-			}
-			focuses = {
-				AFG_nato_aid
-				AFG_self_aid
-				AFG_china_aid
-			}
-		}
-		
-        IRQ = {
-			minor = yes
-			history = IRQ_SCENARIO_1550_DESC
-			ideology = neutrality
 		}
 
-        HKG = {
-			minor = yes
-			history = HKG_SCENARIO_1550_DESC
-			ideology = democratic
+		SPR = {
+			history = SPR_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 
-		"---" = {
-			history = SCENARIO_1550_DESC
+        POR = {
+			history = POR_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 		
 		effect = {
