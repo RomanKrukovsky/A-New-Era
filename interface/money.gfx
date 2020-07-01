@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_ducats"
+		texturefile = "gfx/interface/ducats.dds"			
+	}	
+	
+}
