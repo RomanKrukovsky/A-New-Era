@@ -1,17 +1,13 @@
 
 state={
 	id=17
-	name="Lothringen" # Lorraine
-	manpower = 1517500
-	
-	state_category = city
-	
+	name="STATE_17"
 	resources={
-		steel=28 # was: 48
+		steel=28.000
 	}
 
 	history={
-		owner = LOR  
+		owner = GER
 		victory_points = {
 			9642 5 
 		}
@@ -22,11 +18,16 @@ state={
 			infrastructure = 7
 			industrial_complex = 1
 			air_base = 5
+
 		}
-		add_core_of = LOR
+		add_core_of = GER
+
 	}
 
 	provinces={
-		    11516  3629 11502 9559
+		678 698 3646 3666 6668 6698 9642 9658 
 	}
+	manpower=1517500
+	buildings_max_level_factor=1.000
+	state_category=city
 }

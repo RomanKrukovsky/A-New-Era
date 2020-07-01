@@ -1,0 +1,9 @@
+money_decision_category = {
+	icon = category_burghers
+
+	visible = {
+		NOT = {
+			original_tag = UNC
+		}
+	}
+}

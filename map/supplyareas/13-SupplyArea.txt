@@ -1,8 +1,0 @@
-supply_area={
-	id=13
-	name="SUPPLYAREA_13"
-	value=14
-	states={
-		56 57 59 799 2017 2020 2021 2016 2015 2014  
-	}
-}

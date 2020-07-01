@@ -1,0 +1,15 @@
+state={
+	id=816
+	name="STATE_816"
+	history={
+		owner = GEN
+		add_core_of = GEN
+
+	}
+	provinces={
+		6875 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

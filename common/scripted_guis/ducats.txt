@@ -1,0 +1,40 @@
+scripted_gui = {
+
+	money = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "money_container"
+		visible = {
+            always=yes
+		}
+
+		effects = {
+           
+		}
+	}
+	money_dip = {
+		context_type = selected_country_context
+
+		window_name = "money_diplomacy_container"
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = {
+		  always = yes
+		}
+
+		effects = { }
+	}
+    money_politics = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "money_politic_container"
+		visible = {
+            always=yes
+		}
+
+		effects = {
+           
+		}
+	}
+}
+

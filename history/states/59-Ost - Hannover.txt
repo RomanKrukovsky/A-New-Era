@@ -1,13 +1,13 @@
 
 state={
 	id=59
-	name="Braunswick"
+	name="STATE_59"
 	resources={
 		oil=2.000
 	}
 
 	history={
-		owner = BRU
+		owner = GER
 		victory_points = {
 			3326 5 
 		}
@@ -25,7 +25,7 @@ state={
 			}
 
 		}
-		add_core_of = BRU
+		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
 				air_base = 6
@@ -40,7 +40,7 @@ state={
 	}
 
 	provinces={
-		526 3271 3395 6377 6513 9375 11402 11468 11493 309 3234
+		374 526 3271 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493 
 	}
 	manpower=2438286
 	buildings_max_level_factor=1.000

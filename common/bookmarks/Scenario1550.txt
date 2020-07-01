@@ -1,0 +1,61 @@
+bookmarks = {
+	bookmark = {
+		name = "SCENARIO_1550_NAME"
+		desc = "SCENARIO_1550_DESC"
+		date = 1550.1.1.12
+		picture = "GFX_select_date_1550"
+		default_country = "FRA"
+		default = yes
+
+		
+		FRA = {
+			history = FRA_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		RUS = {
+			history = RUS_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+
+		ENG = {
+			history = RUS_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}			
+			focuses = {
+			}
+		}
+
+		SPR = {
+			history = SPR_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+        POR = {
+			history = POR_SCENARIO_1550_DESC
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=812
+	name="STATE_812"
+	history = {
+		owner = VNI
+		add_core_of = VNI
+		}
+	provinces={
+		11568 11587 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -10,18 +10,13 @@ RAJ_UK = {
 }
 
 RAJ_FREE = {
-	color = rgb { 226  135  40 }
-	color_ui = rgb { 226  135  40 }
+	color = rgb { 80  165  10 }
+	color_ui = rgb { 80  165  10 }
 }
 
 INS_HOL = {
     color = rgb { 203 138 74 }
     color_ui = rgb { 255 179 96 }
-}
-
-INS_FREE = {
-    color = rgb { 40  50  120 }
-	color_ui = rgb { 40  50  120 }
 }
 
 HUN_EMPIRE = {
@@ -186,10 +181,7 @@ GER_greater_german_reich = {
 	color = rgb { 54 54 54 }
 	color_ui = rgb { 115 115 115 }
 }
-GER_pangermanic = {
-	color = rgb { 54 54 54 }
-	color_ui = rgb { 115 115 115 }
-}
+
 ADU = {
 	color = rgb { 240 230 155 }
 	color_ui = rgb { 240 230 155 }
@@ -233,11 +225,6 @@ CAN_north_america_dominion = {
 CAN_UK = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
-}
-
-CAN_FREE = {
-	color = rgb { 240  190  190 }
-	color_ui = rgb { 240  190  190 }
 }
 
 USA_CSA = {
@@ -296,10 +283,7 @@ SPC_global_defense_council = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 35 35 35 }
 }
-EUR_defense_council = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 35 35 35 }
-}
+
 SPC_poum = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 35 35 35 }
@@ -341,58 +325,17 @@ KOP_kingdom_portugal = {
 	color_ui = rgb { 220  105  70 }
 }
 
+KPB_kingdom_portugal_and_brazil = {
+	color = rgb { 0  80  152 }
+	color_ui = rgb { 220  105  70 }
+}
+
 ESU_POR_unified = {
 	color = rgb { 253  232  129 }
 	color_ui = rgb { 253  232  129 }
 }
 
-POR_empire_fascism = {
-	color = rgb { 19  83  180 }
+POR_empire = {
+	color = rgb { 128  160  15 }
 	color_ui = rgb { 19  83  180 }
-}
-
-POR_empire_neutrality = {
-	color = rgb { 19  83  180 }
-	color_ui = rgb { 19  83  180 }
-}
-FRA_puppet = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
-}
-FRD_cosmetic = {
-	color = rgb { 0 85 164 }
-	color_ui = rgb { 74 147 255 }
-}
-FRC_cosmetic = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
-}
-
-FRF_cosmetic = {
-	color = rgb { 80 168 181 }
-	color_ui = rgb {115 185 196 }
-}
-GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
-}
-HRE_color = {
-	color = rgb { 255 206 0 }
-	color_ui = rgb { 255 206 0 }
-}
-ENG_europe  = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 35 35 35 }
-}
-BAY_blue = {
-	color = rgb { 0 153 213 }
-	color_ui = rgb { 0 153 213 }
-}
-BAY_wittelsbach = {
-	color = rgb { 0 153 213 }
-	color_ui = rgb { 0 153 213 }
-}
-BAY_AUS = {
-	color = rgb { 0 153 213 }
-	color_ui = rgb { 0 153 213 }
 }
