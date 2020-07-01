@@ -1,0 +1,29 @@
+scripted_gui = {
+
+	agressive_expansion = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "agressive_expansion_container"
+		visible = {
+            always=yes
+		}
+
+		effects = {
+           
+		}
+	}
+		ae_dip = {
+		context_type = selected_country_context
+
+		window_name = "agressive_expansion_diplomacy_container"
+		parent_window_token = selected_country_view_diplomacy
+
+		visible = {
+		  always = yes
+		}
+
+		effects = { }
+	}
+    
+}
+
