@@ -1,7 +1,7 @@
 
 state={
 	id=28
-	name="Elsaﬂ" # Alsace-Lorraine
+	name="Elsa√ü" # Alsace-Lorraine
 	manpower = 1915600
 	
 	state_category = city
@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ELS
+		owner = ALS
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }
 		victory_points = { 678 5 }
@@ -51,7 +51,7 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = ELS
+		add_core_of = ALS
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

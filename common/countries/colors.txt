@@ -736,7 +736,7 @@ ANS = {
 	color = rgb{ 127 0 0 }
 	color_ui = rgb{ 127 0 0 }
 }
-ELS = {
+ALS = {
 	color = rgb{ 255 216 0 }
 	color_ui = rgb{ 255 216 0 }
 }
@@ -748,7 +748,7 @@ LIE = {
 	color = rgb{ 112 255 128 }
 	color_ui = rgb{ 112 255 128 }
 }
-TRI = {
+TRR = {
 	color = rgb{ 193 77 0 }
 	color_ui = rgb{ 193 77 0 }
 }
@@ -780,4 +780,28 @@ THU = {
 	color = rgb{88 88 127}
 	color_ui = rgb{88 88 127}
 
+}
+KLE = {
+	color = rgb{239 23 210}
+	color_ui = rgb{239 23 210}
+}
+CLG = {
+	color = rgb{38 127 25}
+	color_ui = rgb{38 127 25}
+}
+HES = {
+	color = rgb{24 104 124}
+	color_ui = rgb{24 104 124}
+}
+MUN = {
+	color = rgb{47 0 0}
+	color_ui = rgb{47 0 0}
+}
+BRU = {
+	color = rgb{255 233 127}
+	color_ui = rgb{255 233 127}
+}
+LUN = {
+	color = rgb{255 106 0}
+	color_ui = rgb{255 106 0}
 }
