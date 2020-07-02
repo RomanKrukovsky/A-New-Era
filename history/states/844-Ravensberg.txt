@@ -1,5 +1,5 @@
 state={
-	id=2004
+	id=844
 	name="Ravensburg"
 	resources={
 		aluminium=6 # was: 10.000
