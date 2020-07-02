@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=5
@@ -25,3 +26,30 @@ state={
 		266   6375  9327 9346 9372 9398 11386 3351
 	}
 }
+=======
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		victory_points = {
+			6375 3 
+		}
+		owner = PRE
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = PRE
+
+	}
+
+	provinces={
+		266 3351 6375 9327 9346 9372 9398 11386 
+	}
+	manpower=1238108
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

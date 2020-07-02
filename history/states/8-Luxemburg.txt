@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state=
 {
 	id=8
@@ -27,3 +28,35 @@ state=
 	{
 6583 9418 	}
 }
+=======
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = LUX
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			6583 5 
+		}
+		add_core_of = LUX
+
+	}
+
+	provinces={
+		6583 
+	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

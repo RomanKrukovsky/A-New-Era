@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=160
@@ -43,3 +44,50 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }
+=======
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		steel=20.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = VNI
+		victory_points = {
+			11584 10 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+			11584 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = VNI
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		603 628 3604 3657 6656 9582 9613 11584 
+	}
+	manpower=3963151
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 on_actions = {
 	on_startup = {
 		effect = {
@@ -185,4 +186,193 @@ on_actions = {
 			}
 		}
 	}
+=======
+on_actions = {
+	on_startup = {
+		effect = {
+			every_state = {
+				owner  = {
+					add_to_variable = {
+						money = 2
+					}
+				}
+			}
+			set_variable = {
+				weekly_civ_factory_ouput = num_of_civilian_factories
+			}
+			multiply_variable = {
+				weekly_civ_factory_ouput = 0.1
+			}
+		}
+	}
+	on_daily = {
+		effect = {
+			#income from civillian factories
+			set_variable = {
+				weekly_civ_factory_ouput = num_of_civilian_factories
+			}
+			multiply_variable = {
+				weekly_civ_factory_ouput = 0.05
+			}
+			IF = {
+				limit = {
+					has_idea = civilian_economy
+				}
+				multiply_variable = {
+					weekly_civ_factory_ouput = 2
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = low_economic_mobilisation
+				}
+				multiply_variable = {
+					weekly_civ_factory_ouput = 1.5
+				}
+			}
+			#tax
+			set_variable = {
+				weekly_tax = 0 
+			}
+			every_controlled_state = {
+				limit = {
+					is_core_of = CONTROLLER
+				}
+				CONTROLLER = {
+					add_to_variable = {
+						weekly_tax = PREV.state_population_k
+					}
+				}
+				
+			}
+			multiply_variable = {
+				weekly_tax = 0.00001
+			}
+			IF = {
+				limit = {
+					OR = {
+						NOT = {
+							capital_scope = {
+								is_on_continent = europe
+							}
+						}
+						original_tag = SOV
+					}
+				}
+				multiply_variable = {
+					weekly_tax = 0.1
+				}
+			}
+			set_variable = {
+				weekly_trade_income = resource_exported@steel
+			}
+			add_to_variable = {
+				weekly_trade_income = resource_exported@oil
+			}
+			add_to_variable = {
+				weekly_trade_income = resource_exported@aluminium
+			}
+			add_to_variable = {
+				weekly_trade_income = resource_exported@rubber
+			}
+			add_to_variable = {
+				weekly_trade_income = resource_exported@tungsten
+			}
+			add_to_variable = {
+				weekly_trade_income = resource_exported@chromium
+			}
+			multiply_variable = {
+				weekly_trade_income = 0.05
+			}
+			set_variable = {
+				weekly_trade_spending = resource_imported@steel
+			}
+			add_to_variable = {
+				weekly_trade_spending = resource_imported@oil
+			}
+			add_to_variable = {
+				weekly_trade_spending = resource_imported@aluminium
+			}
+			add_to_variable = {
+				weekly_trade_spending = resource_imported@rubber
+			}
+			add_to_variable = {
+				weekly_trade_spending = resource_imported@tungsten
+			}
+			add_to_variable = {
+				weekly_trade_spending = resource_imported@chromium
+			}
+			multiply_variable = {
+				weekly_trade_spending = 0.05
+			}
+			set_variable = {
+				troop_maintenance = num_divisions
+			}
+			multiply_variable = {
+				troop_maintenance = 0.05
+			}
+			set_variable = {
+				weekly_mil_maintenance = num_of_military_factories
+			}
+			multiply_variable = {
+				weekly_mil_maintenance = 0.2
+			}
+			IF = {
+				limit = {
+					has_idea = civilian_economy
+				}
+				multiply_variable = {
+					weekly_mil_maintenance = 0.8
+				}
+			}
+			IF = {
+				limit = {
+					has_idea = low_economic_mobilisation
+				}
+				multiply_variable = {
+					weekly_mil_maintenance = 0.9
+				}
+			}
+		}
+	}
+	on_weekly = {
+		effect = {
+			add_to_variable = {
+				money = weekly_civ_factory_ouput
+			}
+			add_to_variable = {
+				money = weekly_tax
+			}
+			add_to_variable = {
+				money = weekly_trade_income
+			}
+			subtract_from_variable = {
+				money = weekly_trade_spending
+			}
+			subtract_from_variable = {
+				money = weekly_mil_maintenance
+			}
+			subtract_from_variable = {
+				money = troop_maintenance
+			}
+			ROOT = {
+				sound_effect = "moneyin_effect" 
+			}
+		}
+	}
+	on_daily = {
+		effect = {
+			IF = {
+				limit = {
+					check_variable = {
+						money < -500
+					}
+				}
+				start_civil_war = {
+					ideology = communism
+				}
+			}
+		}
+	}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
 }

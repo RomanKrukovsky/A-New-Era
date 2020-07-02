@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿l_english: 
 FRA_alliance_with_the_ottomans:0 "Alliance with the Ottomans"
 FRA_alliance_with_the_ottomans_desc:0 ""
@@ -19,3 +20,26 @@ FRA_french_claims_on_italy:0 "French Claims on Italy"
 FRA_french_claims_on_italy_desc:0 ""
 FRA_swiss_mercenaries:0 "Swiss Mercenaries"
 FRA_swiss_mercenaries_desc:0 ""
+=======
+﻿l_english: 
+FRA_alliance_with_the_ottomans:0 "Alliance with the Ottomans"
+FRA_alliance_with_the_ottomans_desc:0 ""
+FRA_alliance_with_the_republic_of_siena:0 "Alliance with the Republic of Siena"
+FRA_alliance_with_the_republic_of_siena_desc:0 ""
+FRA_seek_ottoman_assistance:0 "Seek Ottoman assistance"
+FRA_seek_ottoman_assistance_desc:0 ""
+FRA_habsburgvalois_war:0 "Habsburg-Valois War"
+FRA_habsburgvalois_war_desc:0 ""
+FRA_edict_of_chteaubriant:0 "Edict of Châteaubriant"
+FRA_edict_of_chteaubriant_desc:0 ""
+FRA_legacy_of_francis_i:0 "Legacy of Francis I"
+FRA_legacy_of_francis_i_desc:0 ""
+FRA_threat_of_huguenots:0 "Threat of Huguenots"
+FRA_threat_of_huguenots_desc:0 ""
+FRA_habsburgvalois_rivalry:0 "Habsburg-Valois Rivalry"
+FRA_habsburgvalois_rivalry_desc:0 ""
+FRA_french_claims_on_italy:0 "French Claims on Italy"
+FRA_french_claims_on_italy_desc:0 ""
+FRA_swiss_mercenaries:0 "Swiss Mercenaries"
+FRA_swiss_mercenaries_desc:0 ""
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

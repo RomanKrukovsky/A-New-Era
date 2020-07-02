@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=115
@@ -38,3 +39,45 @@ state={
 		1009 1156 3857 4014 4159 7059 7147 10074 12047 
 	}
 }
+=======
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 3836571
+	
+	state_category = city
+	history={
+		owner = SPR
+		victory_points = {
+			10074 20 
+		}
+		victory_points = {
+			4159 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 10
+			dockyard = 1
+			10074 = {
+				naval_base = 2
+			}
+			7059 = {
+				naval_base = 5
+			}
+			4159 = {
+				naval_base = 8
+			}
+			4014 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+	}
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

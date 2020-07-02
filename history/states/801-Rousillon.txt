@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state={
 	id=801
 	name="STATE_801"
@@ -12,3 +13,19 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
+=======
+state={
+	id=801
+	name="STATE_801"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		}
+	provinces={
+		9853 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

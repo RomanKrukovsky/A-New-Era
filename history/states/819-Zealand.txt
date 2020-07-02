@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state={
 	id=819
 	name="STATE_819"
@@ -7,3 +8,14 @@ state={
 	manpower=0
 	buildings_max_level_factor=1.000
 }
+=======
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		3325 3374 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

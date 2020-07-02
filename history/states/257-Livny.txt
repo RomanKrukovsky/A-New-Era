@@ -1,0 +1,28 @@
+
+state={
+	id=257
+	name="STATE_257"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = ATK
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ATK
+		victory_points = {
+			11351 1 
+		}
+
+	}
+
+	provinces={
+		232 313 340 367 396 471 3332 3389 9312 9422 11296 11323 11351 11436 
+	}
+	manpower=1779583
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

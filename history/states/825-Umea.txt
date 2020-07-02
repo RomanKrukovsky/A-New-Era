@@ -1,0 +1,14 @@
+state={
+	id=825
+	name="STATE_825"
+	history={
+		owner = SWE
+		add_core_of = SWE
+	}
+	provinces={
+		118 182 3104 3113 3173 6024 6083 6125 6132 6161 6165 9093 9108 9143 9147 9186 9220 11067 11201 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

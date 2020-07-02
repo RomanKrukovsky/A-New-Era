@@ -1,0 +1,15 @@
+state={
+	id=828
+	name="STATE_828"
+	history={
+		owner = LIT
+		add_core_of = LIT
+
+	}
+	provinces={
+		3254 6281 11312 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

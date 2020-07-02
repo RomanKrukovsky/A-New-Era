@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 guiTypes = {
 
@@ -92,4 +93,100 @@ guiTypes = {
 			#pdx_tooltip = "MONEY_TOOLTIP_BASE"
 		}
 	}
+=======
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "money_container"
+		position = { x = 970 y = 5 } #990
+		iconType ={
+			name ="money_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_ducats"
+			position = { x= 0 y = -3 }
+		}
+		
+		instantTextBoxType = {
+			name ="money_text"
+			position = { x= -35 y = 3 }
+			font = "hoi_18mbs"
+			text = "[?money|0]" 
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "MONEY_TOOLTIP_BASE" 
+		}
+	}
+	containerWindowType = {
+		name = "money_diplomacy_container"
+		position = { x = 260 y = 160 }   
+	
+#		buttonType ={
+#			name ="money_d_bg"
+#			spriteType = "GFX_generic_box_smallest" 
+#			position = { x=0 y=-50 }
+#			#shortcut = "ctrl+k"
+#		}
+		
+		iconType ={
+			name ="money_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_ducats"
+			position = { x= 0 y = -3 }
+		}
+		
+		instantTextBoxType = {
+			name ="money_text"
+			position = { x= -35 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?money|0]" 
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+		
+			pdx_tooltip = "MONEY_TOOLTIP_BASE"
+		}
+	}
+	containerWindowType = {
+		name = "money_politic_container" 
+		position = { x = 00 y = 100 }
+	
+#		buttonType ={
+#			name ="money_d_bg"
+#			spriteType = "GFX_generic_box"
+#			position = { x=0 y=-50 }
+#			#shortcut = "ctrl+k"
+#		}
+		
+		
+		
+		instantTextBoxType = {
+			name ="money_text"
+			position = { x= 30 y = 350 } 
+			font = "hoi_16mbs"
+			text = civ_income
+			format = left 
+			maxWidth = 500	
+			 
+			maxHeight = 500	
+			fixedsize = yes
+		
+			#pdx_tooltip = "MONEY_TOOLTIP_BASE"
+		}
+	}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
 }

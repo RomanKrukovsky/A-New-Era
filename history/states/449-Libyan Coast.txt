@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=449
@@ -20,3 +21,27 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }
+=======
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1127 1198 4047 4057 4200 7076 7136 8069 10046 10117 12088 13073 
+	}
+	manpower=40431
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
