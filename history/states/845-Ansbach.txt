@@ -1,5 +1,5 @@
 state={ 
-	id=2006
+	id=845
 	name="Ansbach"
 	state_category = city
 	provinces={
