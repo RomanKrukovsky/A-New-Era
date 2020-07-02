@@ -37,3 +37,8 @@ set_technology = {
 	}
 
 }
+
+set_autonomy = {
+		target = NAP
+		autonomous_state = autonomy_puppet
+	}
