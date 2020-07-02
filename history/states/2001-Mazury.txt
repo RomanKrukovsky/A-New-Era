@@ -1,0 +1,28 @@
+
+state={
+	id=2001
+	name="Mazury"
+	manpower = 1238108
+	state_category = town
+
+	history={
+		victory_points = {
+			6375 3
+		}
+		#victory_points = {
+		#	11386 1
+		#}
+		owner = POL
+		#controller = GER
+		
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = PRE
+		add_core_of = POL
+	}
+
+	provinces={
+		6402 3380 11245 
+	}
+}

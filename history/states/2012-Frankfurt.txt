@@ -1,0 +1,35 @@
+
+state={
+	id=2012
+	name="Frankfurt"
+	manpower = 3798235
+
+	state_category = large_city
+
+	history={
+		owner = FRK
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			6488 20.0 
+		}
+		victory_points = {
+			564 3
+		}
+		add_core_of = FRK
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+				arms_factory = 4
+			}
+		}
+	}
+
+	provinces={
+		6488
+	}
+}

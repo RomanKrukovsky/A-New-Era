@@ -4,7 +4,7 @@ state={
 	name="STATE_64"
 
 	history={
-		owner = GER
+		owner = BRN
 		victory_points = {
 			6521 50 
 		}
@@ -19,7 +19,7 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = GER
+		add_core_of = BRN
 		1939.1.1 = {
 			buildings = {
 				air_base = 10
@@ -34,7 +34,7 @@ state={
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		375 3367 3499 3522 6487 9428 9456 9496 9560 11219 11359 11444 11505 3207 3312 3258 478 6441
 	}
 	manpower=7265029
 	buildings_max_level_factor=1.000

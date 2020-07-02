@@ -1,0 +1,33 @@
+
+state={
+	id=2007
+	name="Süd-Lothringen" # Lorraine
+	manpower = 1517500
+	
+	state_category = city
+	
+	resources={
+		steel=28 # was: 48
+	}
+
+	history={
+		owner = SPR  
+		victory_points = {
+			9642 5 
+		}
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = SPR
+		add_core_of = FRA
+	}
+
+	provinces={
+		521 11642 11488 9658 6698 698 9642 3666 3646
+	}
+}

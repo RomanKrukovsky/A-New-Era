@@ -1,0 +1,48 @@
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=6 # was: 10.000
+	}
+
+	state_category = large_city
+	history={
+		owner = WUR
+		victory_points = {
+			9517 20
+		}
+		
+		#victory_points = {
+		#	3530 10
+		#}
+		#victory_points = {
+		#	11640 1
+		#}
+		#victory_points = {
+		#	6712 3
+		#}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = WUR
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 11
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		519 694 11486 3692
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+}

@@ -1,8 +1,12 @@
 state={
 	id=799
-	name="STATE_799"
+	name="Bremen"
 	provinces={
 		3326 
+	}
+	history = {
+		OWNER = BRE
+		add_core_of = BRE
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
