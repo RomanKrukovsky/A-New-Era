@@ -31,7 +31,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "money_diplomacy_container"
-		position = { x = 410 y = 150 }   
+		position = { x = 260 y = 160 }   
 	
 #		buttonType ={
 #			name ="money_d_bg"
