@@ -1,0 +1,25 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		owner = ATK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ATK
+		victory_points = {
+			3618 1 
+		}
+
+	}
+
+	provinces={
+		432 508 554 576 1290 1318 3502 3618 4351 6615 9462 9526 9528 11442 11455 11469 11480 11510 11552 
+	}
+	manpower=146494
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

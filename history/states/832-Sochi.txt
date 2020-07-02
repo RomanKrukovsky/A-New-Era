@@ -1,0 +1,17 @@
+state={
+	id=832
+	name="STATE_832"
+	history={
+		owner = CIR
+		add_core_of = CIR
+		victory_points = {
+			9663 10
+		}
+	}
+	provinces={
+		717 735 3698 3717 3720 6692 6721 6736 6738 9663 9674 9691 9694 9696 11647 11681 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

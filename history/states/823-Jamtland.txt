@@ -1,0 +1,14 @@
+state={
+	id=823
+	name="STATE_823"
+	history={
+		owner = DEN
+		add_core_of = DEN
+	}
+	provinces={
+		113 168 202 3111 3162 3191 6010 6123 6129 6185 6207 9066 9068 9148 9229 11049 11052 11116 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

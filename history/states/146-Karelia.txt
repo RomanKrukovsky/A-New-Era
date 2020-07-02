@@ -1,0 +1,38 @@
+
+state={
+	id=146
+	name="STATE_146"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			9100 = {
+				bunker = 2
+
+			}
+			9105 = {
+				bunker = 2
+
+			}
+			9206 = {
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			9206 3 
+		}
+
+	}
+
+	provinces={
+		7 80 2332 2998 3185 6052 6153 6210 9176 11046 11156 13114 13115 
+	}
+	manpower=418635
+	buildings_max_level_factor=1.000
+	state_category=town
+}
