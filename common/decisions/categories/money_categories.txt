@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 money_decision_category = {
 	icon = category_burghers
 
@@ -8,14 +8,3 @@ money_decision_category = {
 		}
 	}
 }
-=======
-money_decision_category = {
-	icon = category_burghers
-
-	visible = {
-		NOT = {
-			original_tag = UNC
-		}
-	}
-}
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

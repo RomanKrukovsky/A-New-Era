@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 spriteTypes = {	
 
 	SpriteType = {
@@ -6,13 +6,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/ducats.dds"			
 	}	
 	
-=======
-spriteTypes = {	
-
-	SpriteType = {
-		name = "GFX_ducats"
-		texturefile = "gfx/interface/ducats.dds"			
-	}	
-	
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
 }

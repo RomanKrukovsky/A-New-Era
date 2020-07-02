@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿l_english: 
  MONEY_TOOLTIP_BASE:0 "You own [?money|G] Ducats."
  civ_income:0 "Income from Civillian Factories per week: §G[?weekly_civ_factory_ouput]§!. Income from Tax per week: §G[?weekly_tax]§!. Weekly Income from Trade: §G[?weekly_trade_income]§! Weekly Trade Spending: §R[?weekly_trade_spending]§! Weekly Division Maintenance: §R[?troop_maintenance]§! Weekly Military Factory Maintenance: §R[?weekly_mil_maintenance]§!"
@@ -7,14 +7,5 @@
  buy_mercenaries_1:0 "Hire weak Mercenary Group"
  buy_mercenaries_2:0 "Hire Medium Mercenary Group"
  buy_mercenaries_3:0 "Hire Strong Mercenary Group"
-=======
-﻿l_english: 
- MONEY_TOOLTIP_BASE:0 "You own [?money|G] Ducats."
- civ_income:0 "Income from Civillian Factories per week: §G[?weekly_civ_factory_ouput]§!. Income from Tax per week: §G[?weekly_tax]§!. Weekly Income from Trade: §G[?weekly_trade_income]§! Weekly Trade Spending: §R[?weekly_trade_spending]§! Weekly Division Maintenance: §R[?troop_maintenance]§! Weekly Military Factory Maintenance: §R[?weekly_mil_maintenance]§!"
- buy_civs:0 "Build Civillian Factory"
- buy_mils:0 "Build Military Factory"
- buy_mercenaries_1:0 "Hire weak Mercenary Group"
- buy_mercenaries_2:0 "Hire Medium Mercenary Group"
- buy_mercenaries_3:0 "Hire Strong Mercenary Group"
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
+
  money_decision_category:0 "Purchases with money"
