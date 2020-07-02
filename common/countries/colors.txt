@@ -33,10 +33,6 @@ AUS = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
 }
-LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
-}
 EST = {
 	color = rgb { 50 135 175 }
 	color_ui = rgb { 99 204 254 }
@@ -675,10 +671,6 @@ MEK = {
 	color = rgb { 186 245 86 }
 	color_ui = rgb { 186 245 86 }
 }
-PRE = {
-	color = rgb { 160  160  160 }
-	color_ui = rgb { 160  160  160 }
-}
 SAX = {
 	color = rgb { 102 102 0 }
 	color_ui = rgb { 102 102 0 }
@@ -708,6 +700,14 @@ ENG = {
 FRA = {
 	color = rgb { 67 83 173 }
 	color_ui = rgb { 67 83 173 }
+}
+PRE = {
+	color = rgb { 0 17 117 }
+	color_ui = rgb { 0 17 117 }
+}
+LIT = {
+	color = rgb { 157 0 165 }
+	color_ui = rgb { 157 0 165 }
 }
 
 
@@ -778,4 +778,39 @@ NAP = {
 URB = {
 	color = rgb { 162 194 211 }
 	color_ui = rgb { 162 194 211 }
+}
+
+SMI = {
+	color = rgb { 191 165 0 }
+	color_ui = rgb { 191 165 0 }
+}
+
+LIV = {
+	color = rgb { 191 9 0 }
+	color_ui = rgb { 191 9 0 }
+}
+
+CRI = {
+	color = rgb { 9 137 160 }
+	color_ui = rgb { 9 137 160 }
+}
+
+ATK = {
+	color = rgb { 133 158 61 }
+	color_ui = rgb { 133 158 61 }
+}
+
+KZN = {
+	color = rgb { 149 200 214 }
+	color_ui = rgb { 149 200 214 }
+}
+
+CIR = {
+	color = rgb { 19 102 67 }
+	color_ui = rgb { 19 102 67 }
+}
+
+DAG = {
+	color = rgb { 75 147 143 }
+	color_ui = rgb { 75 147 143 }
 }
