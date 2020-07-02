@@ -1,0 +1,26 @@
+
+state={
+	id=150
+	name="STATE_150"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		37 52 136 139 141 193 3013 3030 3050 3068 3073 3115 3125 3131 3133 3149 3187 6033 6078 6134 6146 6150 6156 9061 9104 9106 9169 9181 9233 11024 11043 11076 11079 11141 11162 11199 13108 13109 13111 13112 13118 
+	}
+	manpower=611100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
