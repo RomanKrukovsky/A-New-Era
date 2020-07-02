@@ -1,6 +1,6 @@
 
 state={
-	id=2010
+	id=849
 	name="the Palatinate"
 	manpower = 3027739
 	resources={
