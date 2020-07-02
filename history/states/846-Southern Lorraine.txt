@@ -1,6 +1,6 @@
 
 state={
-	id=2007
+	id=846
 	name="Süd-Lothringen" # Lorraine
 	manpower = 1517500
 	
