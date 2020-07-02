@@ -1,6 +1,6 @@
 
 state={
-	id=2008
+	id=847
 	name="Liege"
 	manpower = 3381300
 	
