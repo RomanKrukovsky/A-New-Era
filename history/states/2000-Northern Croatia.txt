@@ -1,6 +1,6 @@
 
 state={
-	id=2000
+	id=840
 	name="Northern Croatia" # Dalmatia
 	manpower = 1431700
 
