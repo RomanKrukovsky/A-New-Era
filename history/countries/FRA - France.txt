@@ -59,4 +59,7 @@ set_technology = {
 
 }
 
-
+set_autonomy = {
+		target = SVY
+		autonomous_state = autonomy_puppet
+	}
