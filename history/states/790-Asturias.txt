@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=790
@@ -29,3 +30,36 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }
+=======
+
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = SPR
+		victory_points = {
+			11707 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			11707 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		738 740 3729 3735 3744 6749 6756 9703 9719 11688 11707 13218 13220 13233 
+	}
+	manpower=1197252
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

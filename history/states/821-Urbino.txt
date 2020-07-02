@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state={
 	id=821
 	name="STATE_821"
@@ -15,3 +16,22 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
+=======
+state={
+	id=821
+	name="STATE_821"
+
+	history={
+		owner = URB
+		add_core_of = URB
+
+	}
+
+	provinces={
+		3885 11861 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

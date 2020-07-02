@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=39
@@ -26,3 +27,33 @@ state={
 		656 6631 6675 9598 9630 11598 11615 
 	}
 }
+=======
+
+state={
+	id=39
+	name="STATE_39" # South Tyrol
+	manpower = 641650
+	
+	state_category = town
+	
+	resources={
+		aluminium=14 # was: 22
+	}
+
+	history={
+		victory_points = {
+			11598 1
+		}
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		656 6631 6675 9598 9630 11598 11615 
+	}
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

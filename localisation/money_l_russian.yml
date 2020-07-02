@@ -1,0 +1,9 @@
+﻿l_russian: 
+ MONEY_TOOLTIP_BASE:0 "У вас [?money|G] дукатов."
+ civ_income:0 "Доходы от фабрик: §G[?weekly_civ_factory_ouput]§!. Доходы от налогов: §G[?weekly_tax]§!. Доходы от торговли: §G[?weekly_trade_income]§! Расходы на торговлю: §R[?weekly_trade_spending]§! Содержание дивизий: §R[?troop_maintenance]§! Содержание военных заводов: §R[?weekly_mil_maintenance]§!"
+ buy_civs:0 "Построить фабрику"
+ buy_mils:0 "Построить завод"
+ buy_mercenaries_1:0 "Нанять лёгкую группу солдат"
+ buy_mercenaries_2:0 "Нанять среднюю группу солдат"
+ buy_mercenaries_3:0 "Нанять сильную группу солдат"
+ money_decision_category:0 "Покупки за деньги"

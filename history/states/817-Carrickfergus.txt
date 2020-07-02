@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state={
 	id=817
 	name="STATE_817"
@@ -15,3 +16,22 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
+=======
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = SCO
+		add_core_of = SCO
+
+	}
+
+	provinces={
+		3217 3329 3379 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

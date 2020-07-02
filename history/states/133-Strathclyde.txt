@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=133
@@ -39,3 +40,46 @@ state={
 		3273 6320 6350 6385 6395 9237 9350 11218 
 	}
 }
+=======
+
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 2257723
+	
+	state_category = city
+	
+	resources={
+		steel=21 # was: 36
+	}
+
+	history={
+		add_core_of = SCO
+		owner = SCO
+		victory_points = {
+			3273 15
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 4
+			anti_air_building = 2
+			air_base = 3
+			6395 = {
+				naval_base = 2
+			}
+
+		}
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces={
+		3273 6320 6350 6385 6395 9237 9350 11218 
+	}
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

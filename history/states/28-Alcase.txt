@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=28
@@ -63,3 +64,42 @@ state={
 		549 1346 6529 9503 
 	}
 }
+=======
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		steel=100.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			678 5 
+		}
+		victory_points = {
+			9503 5 
+		}
+		victory_points = {
+			9559 10 
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		549 1346 3629 6529 9503 9559 11502 
+	}
+	manpower=1915600
+	buildings_max_level_factor=1.000
+	state_category=city
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

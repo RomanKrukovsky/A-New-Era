@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=134
@@ -20,3 +21,27 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
+=======
+
+state={
+	id=134
+	name="STATE_134"
+
+	history={
+		owner = IRE
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		3396 9255 9303 9321 9369 11238 11287 11371 
+	}
+	manpower=667100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

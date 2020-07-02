@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=413
@@ -30,3 +31,37 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
+=======
+
+state={
+	id=413
+	name="STATE_413"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 5
+			5005 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7953 1 
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1922 4928 5005 5089 7953 
+	}
+	manpower=797356
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
