@@ -1,5 +1,5 @@
 state={
-	id=2005
+	id=845
 	name="Baden"
 	resources={
 		aluminium=6 # was: 10.000
