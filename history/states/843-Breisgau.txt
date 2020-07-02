@@ -1,6 +1,6 @@
 
 state={
-	id=2003
+	id=843
 	name="Breisgau"
 	manpower = 2679413
 	resources={
