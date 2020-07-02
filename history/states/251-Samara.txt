@@ -4,7 +4,7 @@ state={
 	name="STATE_251"
 
 	history={
-		owner = SOV
+		owner = KZN
 		victory_points = {
 			11225 3 
 		}
@@ -14,7 +14,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = SOV
+		add_core_of = KZN
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		298 338 339 365 392 393 497 3216 3246 3276 3382 6226 6275 6302 6337 6404 9243 9271 9299 9338 9365 9391 11225 11256 11273 11281 11319 11348 11377 
+		298 339 6275 6404 9243 9271 9299 9365 9391 11225 11256 11281 11348 11377 
 	}
 	manpower=1391819
 	buildings_max_level_factor=1.000
