@@ -1,6 +1,6 @@
 state={
-	id=819
-	name="STATE_819"
+	id=882
+	name="STATE_882"
 	history={
 		owner = PAP
 		add_core_of = PAP
