@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
@@ -451,4 +450,5 @@ ATK = "countries/Astrakhan.txt"
 KZN = "countries/Kazan.txt"
 CIR = "countries/Circassia.txt"
 DAG = "countries/Dagestan.txt"
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
+SLA = "countries/Silesia.txt"
+XXX = "countries/XXX.txt"

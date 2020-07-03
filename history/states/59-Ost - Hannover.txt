@@ -1,53 +1,3 @@
-<<<<<<< HEAD
-
-state={
-	id=59
-	name="Braunswick"
-	resources={
-		oil=2.000
-	}
-
-	history={
-		owner = BRU
-		victory_points = {
-			3326 5 
-		}
-		victory_points = {
-			6377 10 
-		}
-		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 1
-			dockyard = 2
-			6325 = {
-				naval_base = 1
-
-			}
-
-		}
-		add_core_of = BRU
-		1939.1.1 = {
-			buildings = {
-				air_base = 6
-				arms_factory = 4
-				industrial_complex = 3
-				dockyard = 3
-
-			}
-
-		}
-
-	}
-
-	provinces={
-		526 3271 3395 6377 6513 9375 11402 11468 11493 309 3234
-	}
-	manpower=2438286
-	buildings_max_level_factor=1.000
-	state_category=large_city
-}
-=======
 
 state={
 	id=59
@@ -96,4 +46,3 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

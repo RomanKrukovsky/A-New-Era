@@ -12,7 +12,7 @@ state={
 
 
 	history={
-		owner = MEX
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -1,0 +1,29 @@
+state={
+	id=850
+	name="STATE_850"
+	resources={
+		aluminium=1 # was: 4.000
+	}
+	
+	state_category = rural
+
+	history={
+		owner = XXX
+		add_core_of = XXX
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		
+
+	}
+
+	provinces={
+		7810 10534 7683 10715 12600 4666 1657 7807 7893 4769 1356 12223 4419 13164 13160
+	}
+	manpower=112380
+	buildings_max_level_factor=1.000
+}

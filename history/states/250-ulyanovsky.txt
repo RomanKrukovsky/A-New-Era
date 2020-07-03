@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 state={
 	id=250
@@ -28,34 +27,3 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
-=======
-
-state={
-	id=250
-	name="STATE_250"
-	resources={
-		steel=14.000
-	}
-
-	history={
-		owner = KZN
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
-		}
-		add_core_of = KZN
-		victory_points = {
-			392 1 
-		}
-
-	}
-
-	provinces={
-		392 3246 3276 3382 6226 6302 6337 6394 9338 11273 11319 
-	}
-	manpower=1630524
-	buildings_max_level_factor=1.000
-	state_category=town
-}
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

@@ -1,0 +1,24 @@
+
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3878 10 
+		}
+
+	}
+
+	provinces={
+		706 859 3878 3894 6911 9774 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+}

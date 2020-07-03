@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 state={
 	id=802
 	name="STATE_802"
@@ -16,22 +15,3 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 }
-=======
-state={
-	id=802
-	name="STATE_802"
-
-	history={
-		owner = PAP
-		add_core_of = PAP
-
-	}
-
-	provinces={
-		11713 
-	}
-	manpower=25000
-	buildings_max_level_factor=1.000
-	state_category=town
-}
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

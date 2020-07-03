@@ -1,40 +1,3 @@
-<<<<<<< HEAD
-
-state={
-	id=27
-	name="STATE_27" # Bourgogne
-	manpower = 1370800
-	
-	state_category = city
-	
-	resources={
-		aluminium=11 # was: 18
-	}
- 
-	history={
-		owner = SPR
-		victory_points = {
-			3652 5 
-		}
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
-			air_base = 2
-		}
-		add_core_of = FRA
-		add_core_of = SPR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
-	}
-
-	provinces={
-		648 667 817 3506 3652 3681 9609 9625 9644 11628 
-	}
-}
-=======
 
 state={
 	id=27
@@ -72,4 +35,3 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=city
 }
->>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

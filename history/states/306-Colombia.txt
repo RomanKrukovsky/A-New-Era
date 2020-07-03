@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = COL
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
