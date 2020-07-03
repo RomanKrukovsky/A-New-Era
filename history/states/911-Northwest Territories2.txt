@@ -1,6 +1,6 @@
 state={
-	id=851
-	name="STATE_851"
+	id=911
+	name="STATE_911"
 	
 	state_category = wasteland
 
