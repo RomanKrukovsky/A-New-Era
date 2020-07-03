@@ -1,6 +1,6 @@
 state={
-	id=816
-	name="STATE_816"
+	id=879
+	name="STATE_879"
 	history={
 		owner = GEN
 		add_core_of = GEN
