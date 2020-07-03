@@ -1,6 +1,6 @@
 
 state={
-	id=848
+	id=908
 	name="Eastern Wallonia"
 	manpower = 3381300
 	
