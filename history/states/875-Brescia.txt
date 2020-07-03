@@ -1,6 +1,6 @@
 state={
-	id=812
-	name="STATE_812"
+	id=875
+	name="STATE_875"
 	history = {
 		owner = VNI
 		add_core_of = VNI
