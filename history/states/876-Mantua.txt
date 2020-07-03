@@ -1,6 +1,6 @@
 state={
-	id=813
-	name="STATE_813"
+	id=876
+	name="STATE_876"
 	history = {
 		owner = MOD
 		add_core_of = MOD
