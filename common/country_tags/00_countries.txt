@@ -224,7 +224,7 @@ HES = "countries/Hesse.txt"
 MUN = "countries/Munster.txt"
 BRU = "countries/Brunswick.txt"
 LUN = "countries/Luneburg.txt"
-=======
+
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
@@ -452,3 +452,4 @@ CIR = "countries/Circassia.txt"
 DAG = "countries/Dagestan.txt"
 SLA = "countries/Silesia.txt"
 XXX = "countries/XXX.txt"
+SLA = "countries/Silesia.txt"

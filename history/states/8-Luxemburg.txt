@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LUX
+		owner = SPR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -17,12 +17,12 @@ state={
 		victory_points = {
 			6583 5 
 		}
-		add_core_of = LUX
+		add_core_of = SPR
 
 	}
 
 	provinces={
-		6583 
+		6583 9418
 	}
 	manpower=294748
 	buildings_max_level_factor=1.000

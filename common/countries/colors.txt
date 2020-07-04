@@ -779,3 +779,101 @@ URB = {
 	color = rgb { 162 194 211 }
 	color_ui = rgb { 162 194 211 }
 }
+###
+WEP = {
+	color = rgb { 82  52  106 }
+	color_ui = rgb { 82  52  106 }
+}
+BRN = {
+	color = rgb {175 15 15 }
+	color_ui = rgb { 175 15 15 }
+}
+SLA = {
+	color = rgb { 81  173  78 }
+	color_ui = rgb { 81  173  78 }
+}
+ULM = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+RAV = {
+	color = rgb{ 0 255 255 }
+	color_ui = rgb{ 0 255 255 }
+}
+BAD = {
+	color = rgb{ 0 127 70 }
+	color_ui = rgb{ 0 127 70 }
+}
+ANS = {
+	color = rgb{ 127 0 0 }
+	color_ui = rgb{ 127 0 0 }
+}
+ALS = {
+	color = rgb{ 255 216 0 }
+	color_ui = rgb{ 255 216 0 }
+}
+LOR = {
+	color = rgb{ 124 77 124 }
+	color_ui = rgb{ 124 77 124 }
+}
+LIE = {
+	color = rgb{ 112 255 128 }
+	color_ui = rgb{ 112 255 128 }
+}
+TRR = {
+	color = rgb{ 193 77 0 }
+	color_ui = rgb{ 193 77 0 }
+}
+PLT = {
+	color = rgb{ 0 150 85}
+	color_ui = rgb{ 0 150 85}
+}
+MAI = {
+	color = rgb{84 70 0}
+	color_ui = rgb{84 70 0}
+}
+WRZ = {
+	color = rgb{84 52 26}
+	color_ui = rgb{84 52 26}
+}
+FRK = {
+	color = rgb{255 229 104}
+	color_ui = rgb{255 229 104}
+}
+BRE = {
+	color = rgb{0 148 255}
+	color_ui = rgb{0 148 255}
+}
+POM = {
+	color = rgb{64 124 70}
+	color_ui = rgb{64 124 70}
+}
+THU = {
+	color = rgb{88 88 127}
+	color_ui = rgb{88 88 127}
+
+}
+KLE = {
+	color = rgb{239 23 210}
+	color_ui = rgb{239 23 210}
+}
+CLG = {
+	color = rgb{38 127 25}
+	color_ui = rgb{38 127 25}
+}
+HES = {
+	color = rgb{24 104 124}
+	color_ui = rgb{24 104 124}
+}
+MUN = {
+	color = rgb{47 0 0}
+	color_ui = rgb{47 0 0}
+}
+BRU = {
+	color = rgb{255 233 127}
+	color_ui = rgb{255 233 127}
+}
+LUN = {
+	color = rgb{255 106 0}
+	color_ui = rgb{255 106 0}
+}
