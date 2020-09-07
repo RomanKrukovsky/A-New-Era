@@ -1,0 +1,24 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			12384 10 
+		}
+
+	}
+
+	provinces={
+		638 968 1480 5090 7118 7583 7612 9949 9996 10394 10437 10465 10492 11975 12384 12470 12498 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=366
+	name="STATE_366"
+	manpower = 1
+	
+	state_category = city
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 2
+		}
+		
+		
+
+	}
+
+	provinces={
+		866 1572 1584 7388 12381 12439 
+	}
+	
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=902
+	name="STATE_902"
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3960 3 
+		}
+
+	}
+
+	provinces={
+		1915 2082 3875 3960 5001 5022 5085 6968 7836 7981 9829 9920 10778 10861 12875 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+}

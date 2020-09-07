@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 focus_tree = {
 	id = Spain_focus
 	country = {
@@ -250,4 +251,258 @@ focus_tree = {
 	}
 
 #End of focuses 
+=======
+focus_tree = {
+	id = Spain_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	#Focus for Colonial Expansion
+	focus = {
+		id = SPR_colonial_expansion
+		icon = GFX_goal_unknown
+		x = 24
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invest in New Spain
+	focus = {
+		id = SPR_invest_in_new_spain
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_finish_off_the_incas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invest in South America
+	focus = {
+		id = SPR_invest_in_south_america
+		icon = GFX_goal_unknown
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_finish_off_the_incas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Invest in the Pacific
+	focus = {
+		id = SPR_invest_in_the_pacific
+		icon = GFX_goal_unknown
+		x = 28
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_finish_off_the_incas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Focus on Internal Affairs
+	focus = {
+		id = SPR_focus_on_internal_affairs
+		icon = GFX_goal_unknown
+		x = 7
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Economy
+	focus = {
+		id = SPR_the_economy
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_focus_on_internal_affairs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Religion
+	focus = {
+		id = SPR_religion
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_focus_on_internal_affairs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Polotics
+	focus = {
+		id = SPR_polotics
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_focus_on_internal_affairs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Allow Religious Freedom
+	focus = {
+		id = SPR_allow_religious_freedom
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_religion }
+		mutually_exclusive = { focus = SPR_oppress_religious_minorities }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continue the Spanish Inquisition
+	focus = {
+		id = SPR_continue_the_spanish_inquisition
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_oppress_religious_minorities }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Civilian Industrial Development
+	focus = {
+		id = SPR_civilian_industrial_development
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_the_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Civilian Industrial Development II
+	focus = {
+		id = SPR_civilian_industrial_development_ii
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_civilian_industrial_development }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Industrial Development
+	focus = {
+		id = SPR_military_industrial_development
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_the_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Industrial Development II
+	focus = {
+		id = SPR_military_industrial_development_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_military_industrial_development }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve the Road Networks
+	focus = {
+		id = SPR_improve_the_road_networks
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SPR_civilian_industrial_development_ii 
+		}
+		prerequisite = { 
+			focus = SPR_military_industrial_development_ii 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Finish off the Incas
+	focus = {
+		id = SPR_finish_off_the_incas
+		icon = GFX_goal_unknown
+		x = 24
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_colonial_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Oppress Religious Minorities
+	focus = {
+		id = SPR_oppress_religious_minorities
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SPR_religion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
  }

@@ -1,0 +1,24 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=13.000
+	}
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		598 1436 3602 3806 9673 9693 9721 9754 10381 11660 11662 11665 11722 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

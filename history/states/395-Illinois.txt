@@ -1,0 +1,21 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		954 1604 4508 4590 7626 7831 10457 12305 12365 12697 1523
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+
+supply_area={
+	id=27
+	name="SUPPLYAREA_27"
+	value=15
+	states={
+		158 798 
+	}
+}
+=======
+
+supply_area={
+	id=27
+	name="SUPPLYAREA_27"
+	value=15
+	states={
+		158 798 
+	}
+}
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947

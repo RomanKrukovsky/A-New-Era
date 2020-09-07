@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 focus_tree = {
 	id = england_1
 	country = {
@@ -38,4 +39,46 @@ focus_tree = {
 	}
 
 #End of focuses 
+=======
+focus_tree = {
+	id = england_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	#Focus for Empower the Protestant Church
+	focus = {
+		id = ENG_empower_the_protestant_church
+		icon = GFX_focus_generic_support_the_left_right
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reign_of_edward_edward_vi }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.10
+		}
+	}
+
+	#Focus for Reign of Edward Edward VI
+	focus = {
+		id = ENG_reign_of_edward_edward_vi
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 3
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+>>>>>>> be90fe15bb73a328d49c3e3c2b362a893938c947
  }

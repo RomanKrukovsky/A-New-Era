@@ -1,0 +1,14 @@
+state={
+	id=838
+	name="STATE_838"
+	history={
+		owner = CIR
+		add_core_of = CIR
+	}
+	provinces={
+		670 3667 9626 9628 9632 11609 11614 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

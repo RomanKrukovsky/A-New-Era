@@ -1,0 +1,13 @@
+﻿l_english:
+COALITION_WAR_TITLE:0 "Form Coalition"
+COALITION_WAR_ACTION_DESC:0 "Form a Coalition against this country, as it has expanded too agressivly. Members of a coalition unlock decisions to invite more countries to the coalition and to war the target of the coalition"
+aaa:0 "aaa"
+aaa:0 "aaa"
+aaa:0 "aaa"
+aaa:0 "aaa"
+aaa:0 "aaa"
+aaa:0 "aaa"
+send_desc_coalition:0 "Are you sure you want to form a coalition against this country?"
+revieve_desc_coalition:0 "[FROM.GetNameDEF] has formed a coalition against us."
+script_diplo_action_trigger_1:0 "§RFor Neihgboring countries to form a coalition the target needs 100 agressive expansion"
+script_diplo_action_trigger_2:0 "§RFor Non-Neihgboring countries to form a coalition the target needs 250 agressive expansion"

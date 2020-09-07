@@ -1,0 +1,24 @@
+
+state={
+	id=890
+	name="STATE_890"
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4860 3 
+		}
+
+	}
+
+	provinces={
+		1736 1854 1857 4741 4838 4860 6742 7779 10593 11712 12676 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+}

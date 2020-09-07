@@ -1,0 +1,99 @@
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "agressive_expansion_container"
+		position = { x = 1095 y = 4 } #990
+		iconType ={
+			name ="ae_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="agressive_expansion_icon"
+			spriteType = "GFX_relation_timed_stage_coup"
+			position = { x= 0 y = 0 }
+		}
+		
+		instantTextBoxType = {
+			name ="agressive_expansion_text"
+			position = { x= -22 y = 3 }
+			font = "hoi_18mbs"
+			text = "[?ae]"
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "AGRESSIVE_EXPANSION_TOOLTIP_BASE" 
+		}
+	}
+	containerWindowType = {
+		name = "agressive_expansion_diplomacy_container"
+		position = { x = 410 y = 150 }
+	
+#		buttonType ={
+#			name ="ae_d_bg"
+#			spriteType = "GFX_generic_box"
+#			position = { x=0 y=-50 }
+#			#shortcut = "ctrl+k"
+#		}
+		
+		iconType ={
+			name ="ae_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="agressive_expansion_icon"
+			spriteType = "GFX_relation_timed_stage_coup"
+			position = { x= 0 y = 0 }
+		}
+		
+		instantTextBoxType = {
+			name ="agressive_expansion_text"
+			position = { x= -15 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?ae]"
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+		
+			pdx_tooltip = "AGRESSIVE_EXPANSION_TOOLTIP_BASE"
+		}
+	}
+	containerWindowType = {
+		name = "agressive_expansion_diplomacy_containerB"
+		position = { x = 480 y = -60 }
+	
+#		buttonType ={
+#			name ="ae_d_bg"
+#			spriteType = "GFX_generic_box"
+#			position = { x=0 y=-50 }
+#			#shortcut = "ctrl+k"
+#		}
+		
+		iconType = {
+			name ="ae_icon"
+			
+			spriteType = "GFX_black"
+			position = { x= -3 y = -0 }
+		}
+		
+		instantTextBoxType = {
+			name ="agressive_expansion_text"
+			position = { x= -45 y = 27 }
+			font = "hoi_18mbs"
+			text = "[?ae]"
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+			fixedsize = yes
+		
+			pdx_tooltip = "AGRESSIVE_EXPANSION_TOOLTIP_BASE"
+		}
+	}
+}
