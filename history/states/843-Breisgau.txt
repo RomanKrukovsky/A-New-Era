@@ -1,0 +1,38 @@
+
+state={
+	id=843
+	name="Breisgau"
+	manpower = 2679413
+	resources={
+		aluminium=18 # was: 30
+	}
+	
+	state_category = city
+
+	history={
+		owner = AUS
+		victory_points = {
+			692 20
+		}
+		victory_points = {
+			708 3 #10
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = AUS
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+			}
+		}
+	}
+
+	provinces={
+		11640 678
+	}
+}

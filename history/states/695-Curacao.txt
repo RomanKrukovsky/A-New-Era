@@ -1,0 +1,27 @@
+state={
+	id=695
+	name="STATE_695"
+	manpower = 1
+	
+	state_category = rural
+
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = XXX
+	    
+		
+		victory_points = {
+			153 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		153 
+	}
+}

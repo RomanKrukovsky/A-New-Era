@@ -1,0 +1,86 @@
+on_actions = {
+	on_startup = {
+		effect = {
+		every_country = {
+			limit = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+			add_to_variable = {
+				ae = 10
+			}
+		}
+		every_country = {
+			set_temp_variable = {
+				ae_temp = num_owned_states
+			}
+			multiply_temp_variable = {
+				ae_temp = 3
+			}
+			subtract_from_variable = {
+				ae = ae_temp
+			}
+		}
+		}
+	}
+	on_puppet = {
+		effect = {
+		FROM = {
+			add_to_variable = {
+				ae = var:ROOT.num_owned_states
+			}
+		}
+		}
+	}	
+	on_daily = {
+		effect = {
+			every_country = {
+				IF = {
+					limit = {
+						
+						check_variable = {
+							num_states_owned < num_owned_states
+						}
+					}
+					set_temp_variable = {
+						ae_get_states = num_owned_states 
+					}
+					subtract_from_temp_variable = {
+						ae_get_states = num_states_owned
+					}
+					multiply_temp_variable = {
+						ae_get_states = 3
+					}
+					add_to_variable = {
+						ae = ae_get_states
+					}
+				}
+				set_variable = {
+					num_states_owned = num_owned_states
+				}
+			}
+		}
+	} 
+	on_weekly = {
+		effect = {
+			#every_country = {
+				IF = {
+					limit = {
+						ROOT = {
+						check_variable = {
+							ae > 0
+						}
+						}
+					}
+					ROOT = {
+					subtract_from_variable = {
+						ae = 1
+					}
+					}
+				}
+			#}
+		}
+	}
+}

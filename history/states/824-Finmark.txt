@@ -1,0 +1,14 @@
+state={
+	id=824
+	name="STATE_824"
+	history={
+		owner = SMI
+		add_core_of = SMI
+	}
+	provinces={
+		64 128 6092 6107 9064 9116 9128 9191 11034 11063 11104 11169 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

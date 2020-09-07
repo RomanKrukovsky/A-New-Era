@@ -1,0 +1,25 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		oil=18.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		941 986 1432 1601 1651 3677 3678 3784 3840 4518 6694 6699 6861 6876 6881 7667 9637 9671 9814 9855 9911 10387 10483 11763 11859 11876 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

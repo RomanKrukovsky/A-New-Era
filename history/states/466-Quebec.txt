@@ -1,0 +1,27 @@
+state={
+	id=466
+	name="STATE_466"
+	resources={
+		aluminium=4 # was: 4.000
+	}
+	
+	state_category = rural
+
+	history={
+		owner = XXX
+
+		buildings = {
+			infrastructure = 1
+			
+
+		}
+		
+
+	}
+
+	provinces={
+		490 983 1341 1712 1764 3208 3691 3911 6740 7364 7435 7813 7875 10176 10249 10700 11682 11902 12147 12205 12276 13162 13166 13181 13184 13196 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

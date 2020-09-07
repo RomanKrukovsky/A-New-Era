@@ -1,0 +1,11 @@
+
+ l_german: 
+ MONEY_TOOLTIP_BASE:0 "Sie haben [?money|G] Dukaten."
+ civ_income:0 "Einkommen von Zivilfabriken pro Woche: §G[?weekly_civ_factory_ouput]§!. Einkommen von Steuern pro Woche: §G[?weekly_tax]§!. Wöchentliche Handelseinkommen: §G[?weekly_trade_income]§! Wöchentlichen Handelsausgaben: §R[?weekly_trade_spending]§! Wöchentliche Armeewartung: §R[?troop_maintenance]§! Wöchentliche Militärfabrikwartung: §R[?weekly_mil_maintenance]§!"
+ buy_civs:0 "Bau Zivilfabrik"
+ buy_mils:0 "Bau Militärfabrik"
+ buy_mercenaries_1:0 "Kleine Söldner Gruppe"
+ buy_mercenaries_2:0 "Mittelgroße Söldner Gruppe"
+ buy_mercenaries_3:0 "Große Söldner Gruppe"
+
+ money_decision_category:0 "Ausgaben"

@@ -1,0 +1,25 @@
+
+state={
+	id=895
+	name="STATE_895"
+	manpower = 1
+	
+	state_category = city
+
+	history={
+		owner = XXX
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11654 3
+		}
+		
+
+	}
+
+	provinces={
+		11654 13157 6707 9664 734 3733 11680 3747 3702 11650 6795 9708 6717 6916 6778
+	}
+	
+}

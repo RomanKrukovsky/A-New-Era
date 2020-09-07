@@ -1,0 +1,14 @@
+state={
+	id=874
+	name="STATE_874"
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		}
+	provinces={
+		771 776 6635 9741 11726 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
