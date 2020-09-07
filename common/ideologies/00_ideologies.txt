@@ -9,7 +9,7 @@ ideologies = {
 		
 			liberalism = {
 			}
-		
+		............
 			socialism = {
 			}
 		}
